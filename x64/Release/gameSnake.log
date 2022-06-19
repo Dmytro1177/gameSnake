@@ -1,7 +1,8 @@
 ﻿  gameSnake.cpp
+C:\Users\Admin\Desktop\Portfolio\gameSnake\gameSnake.cpp(261,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Generating code
-  3 of 91 functions ( 3.3%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  88 of 92 functions (95.7%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  gameSnake.vcxproj -> C:\Users\Admin\Desktop\C++\gameSnake\x64\Release\gameSnake.exe
+  gameSnake.vcxproj -> C:\Users\Admin\Desktop\Portfolio\gameSnake\x64\Release\gameSnake.exe

@@ -29,7 +29,6 @@ void Setup() {
 }
 void Menu() {
 	system("cls");
-	//Sleep(0);
 	for (int i = 0; i < n; i++) {
 		if (active == i)
 			cout << a[i] <<"   <<<" << endl;
@@ -60,7 +59,6 @@ void Menu() {
 				menu = false;
 				Setup();
 				game = true;
-				//setup = false;
 			}
 			if (active == 1) {
 				menu = false;
@@ -260,8 +258,7 @@ void Logic(){
 	}
 }
 int main() {
-	//srand(time(0)); 
-	//rand(); 
+	srand(time(0)); 
 	keybd_event(VK_MENU, 0x38, 0, 0);
 	keybd_event(VK_RETURN, 0x1c, 0, 0);
 	keybd_event(VK_RETURN, 0x1c, KEYEVENTF_KEYUP, 0);
@@ -269,15 +266,12 @@ int main() {
 		
 	while (go) {
 		while (menu) {
-			Menu();
-			
+			Menu();	
 		}
 		while (settings) {
 			Settings();
 		}
-
 		while (game) {
-
 			Draw();
 			Input();
 			Logic();
